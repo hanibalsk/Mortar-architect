@@ -1,13 +1,12 @@
 package architect.commons;
 
-import architect.Navigator;
-import architect.Stackable;
-import mortar.MortarScope;
+import architect.Architect;
+import architect.ArchitectedScope;
 
 /**
  * @author Lukasz Piliszczuk - lukasz.pili@gmail.com
  */
-public interface Architected extends Stackable {
+public interface Architected extends ArchitectedScope {
 
-    Navigator createNavigator(MortarScope scope);
+    Architect createNavigator();
 }

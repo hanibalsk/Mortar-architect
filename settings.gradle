@@ -1,4 +1,13 @@
-include ':architect',
-        ':robot', 'robot-compiler',
-        ':commons',
-        ':app'
+include ':core',
+        ':services:commons',
+        ':services:show',
+        ':services:navigation',
+        ':services:navigation-commons',
+        ':hook:mortar',
+//        ':robot'
+//        ':robot-compiler'
+//        ':commons'
+        ':examples:simple-app'
+//        ':examples:mortar-app'
+//        ':app'
+// ':kotlin_app'
