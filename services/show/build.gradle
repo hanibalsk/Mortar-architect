@@ -23,3 +23,7 @@ dependencies {
 }
 
 apply from: '../../mvn-publish-android.gradle'
+
+artifactoryPublish {
+    skip = true
+}
